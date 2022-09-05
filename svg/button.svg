@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 293 79">
+  <g id="Group_7" data-name="Group 7" transform="translate(0 -0.028)">
+    <g id="Group_6" data-name="Group 6" transform="translate(0 0.028)">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="293" height="79" rx="39.5" fill="#ffe500"/>
+    </g>
+    <text id="BOOK_A_FLIGHT" data-name="BOOK A FLIGHT" transform="translate(60 49.028)" fill="rgba(0,0,0,0.93)" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">BOOK A FLIGHT</tspan></text>
+  </g>
+</svg>

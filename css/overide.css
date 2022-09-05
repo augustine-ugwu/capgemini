@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  padding-top: 60px;
+}
+
+.navbar-light {
+  padding: 5px !important;
+}
+
+.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: right;
+    width: auto;
+    margin-top: 0;
+    border: 0;
+    box-shadow: none;
+    left: 0;
+}
+
+.carousel .item {
+    height: auto;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: auto;
+}
+
+.fill-space {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill-space img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100;
+}
+
+.zero-padding {
+    padding: 0px !important;
+}
+
+.half-height {
+    height: 50%;
+}
+
+.test {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 10% auto;
+    border-radius: 50%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.content_center {
+  align-self: auto;
+  margin-top:50%;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: white !important;
+  }
+}
